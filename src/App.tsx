@@ -2,10 +2,11 @@ import AppStyles from "./App.module.css";
 import AddMore from "./components/AddMore/AddMore";
 import Deserve from "./components/Deserve/Deserve";
 import Hero from "./components/Hero/Hero";
-import Improvement from "./components/Improvement/improvement";
+import Improvement from "./components/Improvement/Improvement";
 import Pillar from "./components/Pillar/Pillar";
 import PromotionCard from "./components/PromotionCards/PromotionCard";
 import Quote from "./components/Quote/Quote";
+import Waitlist from "./components/Waitlist/Waitlist";
 import Wellness from "./components/Wellness/Wellness";
 
 // Data
@@ -33,6 +34,7 @@ function App() {
       ))}
       <AddMore />
       <Improvement/>
+      <Waitlist/>
     </div>
   );
 }
