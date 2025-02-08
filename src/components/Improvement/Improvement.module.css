@@ -1,0 +1,72 @@
+.Improvement {
+  width: 100%;
+}
+
+.header {
+  border: 0.8px solid rgba(0, 0, 0, 0.6);
+  background-color: #fff;
+  border-radius: 120px;
+  padding: 2.5rem 5rem;
+  width: fit-content;
+  text-align: center;
+  position: absolute;
+  top: -15%;
+}
+
+.header > h5 {
+  color: #0057ed;
+  font-family: "Recoleta Alt";
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.innerContainer {
+  position: relative;
+  margin-top: 10%;
+  width: 100%;
+  height: 450px;
+  background-image: url("../../assets/icons/fingerprint-texture.svg");
+  background-size: cover;
+  background-position: top;
+  background-color: #0556e2;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.content1 {
+  text-align: center;
+  padding: 0 1.5rem;
+}
+.contentTitle {
+  font-size: 6rem;
+  font-family: "Gilroy-Bold";
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.contentTitle span {
+  font-size: 4rem;
+}
+
+.moreInfo {
+  width: 350px;
+  border: 0.8px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(15, 74, 174, 0.5);
+  padding: 1.5rem 3rem;
+  filter: blur(4);
+}
+
+.moreInfoText {
+  font-size: 1.5rem;
+  font-family: "Gilroy-Bold";
+  color: rgba(255, 255, 255, 0.7);
+}
