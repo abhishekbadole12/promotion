@@ -1,4 +1,5 @@
 import AppStyles from "./App.module.css";
+import AddMore from "./components/AddMore/AddMore";
 import Deserve from "./components/Deserve/Deserve";
 import Hero from "./components/Hero/Hero";
 import Pillar from "./components/Pillar/Pillar";
@@ -23,8 +24,13 @@ function App() {
         and is personalised for you in everyway
       </p>
       {promotions.map((promotion, index) => (
-        <PromotionCard key={promotion.id} item={promotion} isReversed={index % 2 !== 0}/>
+        <PromotionCard
+          key={promotion.id}
+          item={promotion}
+          isReversed={index % 2 !== 0}
+        />
       ))}
+      <AddMore />
     </div>
   );
 }
