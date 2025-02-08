@@ -1,4 +1,8 @@
-import Mobile1 from "../assets/images/mobile-img-1.svg";
+import Phone1 from "../assets/images/phone-1.svg";
+import Phone2 from "../assets/images/phone-2.svg";
+import Phone3 from "../assets/images/PHONE-3.svg";
+import Phone4 from "../assets/images/PHONE-4.svg";
+import Phone5 from "../assets/images/PHONE-5.svg";
 
 export const promotions = [
   {
@@ -7,7 +11,7 @@ export const promotions = [
     title: "wellness is in your hands",
     subtitle:
       "Grwn.life enables you to track, analyse, and reflect on your health, so you can align it with what truly matters to you - be it peak fitness or simply feeling your best every day, ",
-    image: Mobile1,
+    image: Phone1,
   },
   {
     id: 2,
@@ -15,7 +19,7 @@ export const promotions = [
     title: "wellness is in your hands",
     subtitle:
       "Grwn.life enables you to track, analyse, and reflect on your health, so you can align it with what truly matters to you - be it peak fitness or simply feeling your best every day, ",
-    image: Mobile1,
+    image: Phone2,
   },
   {
     id: 3,
@@ -23,7 +27,7 @@ export const promotions = [
     title: "wellness is in your hands",
     subtitle:
       "Grwn.life enables you to track, analyse, and reflect on your health, so you can align it with what truly matters to you - be it peak fitness or simply feeling your best every day, ",
-    image: Mobile1,
+    image: Phone3,
   },
   {
     id: 4,
@@ -31,7 +35,7 @@ export const promotions = [
     title: "wellness is in your hands",
     subtitle:
       "Grwn.life enables you to track, analyse, and reflect on your health, so you can align it with what truly matters to you - be it peak fitness or simply feeling your best every day, ",
-    image: Mobile1,
+    image: Phone4,
   },
   {
     id: 5,
@@ -39,6 +43,6 @@ export const promotions = [
     title: "wellness is in your hands",
     subtitle:
       "Grwn.life enables you to track, analyse, and reflect on your health, so you can align it with what truly matters to you - be it peak fitness or simply feeling your best every day, ",
-    image: Mobile1,
+    image: Phone5,
   },
 ];
