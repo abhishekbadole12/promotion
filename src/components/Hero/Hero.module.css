@@ -1,0 +1,59 @@
+/* Hero Img */
+.Hero {
+  background-image: url("../../assets/icons/hero-bg.svg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  /* -- */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Edge Shade */
+.edgeShade {
+  background-image: url("../../assets/icons/edges.svg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  /* -- */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main Content */
+.mainContent {
+  /* -- */
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 6rem;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 5%,
+    #ffffff 20%,
+    #ffffff 80%,
+    rgba(255, 255, 255, 0) 95%
+  );
+}
+
+.title {
+  font-family: "Recoleta Alt", sans-serif;
+  color: #0057ed;
+  font-size: 6rem;
+  line-height: 1.2;
+  letter-spacing: 0%;
+  margin-bottom: 1rem;
+}
+
+.subTitle {
+  font-family: "Gilroy-Medium", sans-serif;
+  color: #656565;
+  font-size: 2rem;
+  line-height: 1.2;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}

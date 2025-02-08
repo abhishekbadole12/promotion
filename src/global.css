@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("./assets/fonts/gilroy/Gilroy-Medium.ttf");
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("./assets/fonts/gilroy/Gilroy-Bold.ttf");
+}
+@font-face {
+  font-family: "Recoleta Alt";
+  src: url("./assets/fonts/recoleta/Recoleta-Alt-Bold.otf");
+}
