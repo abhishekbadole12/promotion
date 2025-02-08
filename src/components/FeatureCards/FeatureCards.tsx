@@ -8,25 +8,26 @@ export default function FeatureCards() {
     {
       id: 1,
       image: DNAImg,
-      title: "Making health data simple to understand",
+      title: "Multi-Source Health Data Integration",
       subTitle:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ",
     },
     {
       id: 2,
       image: aiImg,
-      title: "Tasks modify dynamically to meet personal goals",
+      title: "Advanced AI Processing Engine",
       subTitle:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ",
     },
     {
       id: 3,
       image: PersonalisedHealth,
-      title: "Multi-Source Health Data Integration",
+      title: "Personalised Health Optimisation",
       subTitle:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ",
     },
   ];
+  
   return (
     <section className={FeatureCardsStyles.DataCards}>
       <div className={FeatureCardsStyles.cardsContainer}>

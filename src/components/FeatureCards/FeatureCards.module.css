@@ -34,6 +34,7 @@
 }
 .cardTitle{
     color: #03BE77;
+    padding: 0 3rem;
 }
 .cardTitle > p {
   font-family: "Gilroy-Bold";
