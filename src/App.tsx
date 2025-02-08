@@ -14,7 +14,10 @@ function App() {
       {/* Card */}
       <Pillar />
       {/* Card */}
-      <Wellness/>
+      <Wellness />
+      <p className={AppStyles.personalisedText}>
+        and is personalised for you in everyway
+      </p>
     </div>
   );
 }
