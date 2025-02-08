@@ -1,21 +1,81 @@
-/* Hero Img */
 .Hero {
-  background-image: url("../../assets/icons/hero-bg.svg");
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  /* -- */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* -------- */
+@keyframes rotateClockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateAntiClockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.rotatingContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.outerSvg {
+  background-image: url("../../assets/hero/outer.svg");
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   /* -- */
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: rotateClockwise 50s linear infinite;
 }
+
+.middleSvg {
+  background-image: url("../../assets/hero/middle.svg");
+  background-size: cover;
+  background-position: center;
+  width: 96%;
+  height: 96%;
+  /* -- */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: rotateAntiClockwise 30s linear infinite;
+}
+
+.innerSvg {
+  background-image: url("../../assets/hero/inner.svg");
+  background-size: cover;
+  background-position: center;
+  width: 55%;
+  height: 55%;
+  /* -- */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: rotateClockwise 50s linear infinite;
+}
+/* -------- */
 
 /* Edge Shade */
 .edgeShade {
-  background-image: url("../../assets/icons/edges.svg");
-  background-size: cover;
-  background-position: center;
   width: 100%;
   height: 100%;
   /* -- */
@@ -26,17 +86,17 @@
 
 /* Main Content */
 .mainContent {
-  /* -- */
+  z-index: 999;
   width: 100%;
   height: auto;
   text-align: center;
   padding: 6rem;
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 0) 5%,
-    #ffffff 20%,
-    #ffffff 80%,
-    rgba(255, 255, 255, 0) 95%
+    rgba(255, 255, 255, 0) 3.27%,
+    #ffffff 15.48%,
+    #ffffff 75.31%,
+    rgba(255, 255, 255, 0) 91.28%
   );
 }
 
@@ -44,16 +104,43 @@
   font-family: "Recoleta Alt", sans-serif;
   color: #0057ed;
   font-size: 6rem;
-  line-height: 1.2;
+  line-height: 1;
   letter-spacing: 0%;
   margin-bottom: 1rem;
 }
 
 .subTitle {
-  font-family: "Gilroy-Medium", sans-serif;
+  font-family: "Gilroy-Bold", sans-serif;
   color: #656565;
-  font-size: 2rem;
+  font-size: 1.85rem;
   line-height: 1.2;
   letter-spacing: 0%;
   text-transform: uppercase;
+}
+
+/* Top Shade */
+.topShade {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 30%;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 27.17%,
+    #ffffff 51.9%
+  );
+  transform: rotate(180deg);
+}
+
+/* Bottom Shade */
+.bottomShade {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 27.17%,
+    #ffffff 51.9%
+  );
 }
