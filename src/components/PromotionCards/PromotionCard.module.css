@@ -1,0 +1,48 @@
+.PromotionCard {
+  background-image: url("../../assets/icons/fingerprint-texture.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: fill;
+  /* -- */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.innerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56%;
+}
+
+.reversed {
+  flex-direction: row-reverse;
+}
+
+.imageContainer {
+  width: fit-content;
+  height: auto;
+}
+
+.content {
+  width: 75%;
+  color: #fff;
+}
+
+.title {
+  font-family: "Recoleta Alt", sans-serif;
+  font-size: 4.5rem;
+  line-height: 1;
+  letter-spacing: 0%;
+  margin-bottom: 2rem;
+}
+
+.subTitle {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  letter-spacing: 0%;
+}
