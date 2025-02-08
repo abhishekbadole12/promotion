@@ -1,6 +1,8 @@
 import AppStyles from "./App.module.css";
 import AddMore from "./components/AddMore/AddMore";
 import Deserve from "./components/Deserve/Deserve";
+import Faq from "./components/FAQ/Faq";
+import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import Improvement from "./components/Improvement/Improvement";
 import Pillar from "./components/Pillar/Pillar";
@@ -35,6 +37,8 @@ function App() {
       <AddMore />
       <Improvement/>
       <Waitlist/>
+      <Faq/>
+      <Footer/>
     </div>
   );
 }
