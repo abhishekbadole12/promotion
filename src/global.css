@@ -17,8 +17,20 @@
   src: url("./assets/fonts/gilroy/Gilroy-Medium.ttf");
 }
 @font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("./assets/fonts/gilroy/Gilroy-SemiBold.ttf");
+}
+@font-face {
   font-family: "Gilroy-Bold";
   src: url("./assets/fonts/gilroy/Gilroy-Bold.ttf");
+}
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("./assets/fonts/gilroy/Gilroy-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Recoleta";
+  src: url("./assets/fonts/recoleta/Recoleta-Regular.otf");
 }
 @font-face {
   font-family: "Recoleta Alt";
