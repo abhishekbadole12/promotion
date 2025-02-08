@@ -3,6 +3,7 @@ import Deserve from "./components/Deserve/Deserve";
 import Hero from "./components/Hero/Hero";
 import Pillar from "./components/Pillar/Pillar";
 import Quote from "./components/Quote/Quote";
+import Wellness from "./components/Wellness/Wellness";
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <Deserve />
       {/* Card */}
       <Pillar />
+      {/* Card */}
+      <Wellness/>
     </div>
   );
 }
