@@ -3,6 +3,7 @@ import AddMore from "./components/AddMore/AddMore";
 import Deserve from "./components/Deserve/Deserve";
 import Faq from "./components/FAQ/Faq";
 import Footer from "./components/Footer/Footer";
+import DataCards from "./components/HealthDataCards/DataCards";
 import Hero from "./components/Hero/Hero";
 import Improvement from "./components/Improvement/Improvement";
 import Pillar from "./components/Pillar/Pillar";
@@ -22,7 +23,7 @@ function App() {
       <Deserve />
       {/* Card */}
       <Pillar />
-      {/* Card */}
+      <DataCards/>
       <Wellness />
       <p className={AppStyles.personalisedText}>
         and is personalised for you in everyway
