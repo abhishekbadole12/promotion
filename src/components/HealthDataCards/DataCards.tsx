@@ -1,11 +1,12 @@
 import DataCardsStyles from "./DataCards.module.css";
 import Graph from "../../assets/cards/Task_Paper.svg";
+import DataCardImg from "../../assets/icons/health-data.svg"
 
 export default function DataCards() {
   const cards = [
     {
       id: 1,
-      image:  Graph ,
+      image:  DataCardImg ,
       title: "Making health data simple to understand",
       subTitle:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet",

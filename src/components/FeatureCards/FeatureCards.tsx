@@ -1,25 +1,27 @@
 import FeatureCardsStyles from "./FeatureCards.module.css";
-import Graph from "../../assets/cards/Task_Paper.svg";
+import DNAImg from "../../assets/featured-cards/dna.svg";
+import aiImg from "../../assets/featured-cards/ai.svg";
+import PersonalisedHealth from "../../assets/featured-cards/personalised-health.svg";
 
 export default function FeatureCards() {
   const cards = [
     {
       id: 1,
-      image:  Graph ,
+      image: DNAImg,
       title: "Making health data simple to understand",
       subTitle:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet",
     },
     {
       id: 2,
-      image:  Graph ,
+      image: aiImg,
       title: "Tasks modify dynamically to meet personal goals",
       subTitle:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet",
     },
     {
       id: 3,
-      image:  Graph ,
+      image: PersonalisedHealth,
       title: "Multi-Source Health Data Integration",
       subTitle:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet",
