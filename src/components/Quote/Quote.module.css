@@ -1,0 +1,23 @@
+.Quote {
+  width: 100%;
+  height: 500px;
+}
+
+.contentContainer {
+    width: 43%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 4em;
+    text-align: center;
+}
+
+.contentContainer > p:first-child {
+    margin-bottom: 2.5rem;
+}
+
+.text {
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 40px;
+}
