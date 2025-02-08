@@ -1,0 +1,57 @@
+.DataCards {
+  width: 100%;
+  height: 90vh;
+  padding-top: 10rem;
+}
+.cardsContainer {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.card {
+  max-width: 394px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgContainer {
+  width: 187px;
+  height: 187px;
+  border: 0.8px solid #0000004D;
+  background-color: #F1F1F180;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgContainer > img {
+  width: 100%;
+  height: 100%;
+}
+.cardTitle{
+    color: #03BE77;
+}
+.cardTitle > p {
+  font-family: "Gilroy-Bold";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-inline: 20px;
+
+}
+.cardSubTitle > p {
+  font-family: "Gilroy-Medium";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-inline: 20px;
+
+}

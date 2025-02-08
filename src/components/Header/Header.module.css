@@ -1,0 +1,38 @@
+.header {
+  background-color: #ffffff;
+  border: 0.4px solid #00000066;
+  padding: 24px 15%;
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brandName {
+  font-family: "Recoleta";
+  font-weight: 500;
+  font-size: 38.31px;
+  line-height: 52.1px;
+  letter-spacing: 0%;
+}
+
+.ctaButton {
+  background-color: #000;
+  color: #fff;
+  border-radius: 85px;
+  padding: 8px 40px;
+  outline: none;
+  border: none;
+  /* -- */
+  font-family: "Gilroy-ExtraBold";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 38.18px;
+  letter-spacing: 0%;
+  text-align: center;
+}

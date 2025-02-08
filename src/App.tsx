@@ -2,7 +2,9 @@ import AppStyles from "./App.module.css";
 import AddMore from "./components/AddMore/AddMore";
 import Deserve from "./components/Deserve/Deserve";
 import Faq from "./components/FAQ/Faq";
+import FeatureCards from "./components/FeatureCards/FeatureCards";
 import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
 import DataCards from "./components/HealthDataCards/DataCards";
 import Hero from "./components/Hero/Hero";
 import Improvement from "./components/Improvement/Improvement";
@@ -18,12 +20,13 @@ import { promotions } from "./constants/promotions";
 function App() {
   return (
     <div className={AppStyles.App}>
+      <Header />
       <Hero />
       <Quote />
       <Deserve />
-      {/* Card */}
-      <Pillar />
       <DataCards/>
+      <Pillar />
+      <FeatureCards />
       <Wellness />
       <p className={AppStyles.personalisedText}>
         and is personalised for you in everyway
